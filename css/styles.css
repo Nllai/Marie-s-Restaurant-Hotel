@@ -104,3 +104,7 @@ body{
 }
 
 /* banner-text end */
+.homepic {
+    max-width:33vw;
+    max-height: 30vh;
+}
