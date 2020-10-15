@@ -1,0 +1,106 @@
+body{
+    font-family: Roboto-bold;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.navbar{
+    height: 15vh;
+    weight: 10vw;
+}
+.sticky-top{
+    position: sticky;
+    top: 5vh;
+    bottom: 80vh;
+    z-index: 1
+}
+.navbar-brand{
+    height: 10vh;
+}
+.navbar-brand img{
+    position: fixed;
+    padding-left: 30px;
+}
+.nav-item{
+    padding: 15px;
+}
+.options{
+    padding-right: 60px;
+}
+
+/* title text */
+@media only screen and (max-width: 768px){
+    .title{
+        font-size: 8vw;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width: 384px){
+    .title{
+        font-size: 4vw;
+        font-weight: 700;
+    }
+}
+
+/* title text end */
+
+/* section heights */
+
+.title-banner {
+    position: relative;
+    height: 80vh;
+    margin-top:0;
+}
+
+.about-banner {
+    height: 40vh;
+}
+
+.section {
+    height: 45vh;
+}
+
+.contact-section {
+    height: 64vh;
+    background-color: #333333;
+}
+
+/* section heights */
+
+/* banner-text */
+
+@media only screen and (max-width: 768px) {
+    .title-banner-text {
+        position: absolute;
+        bottom: 20vh;
+        left: 5vw;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .title-banner-text {
+        position: absolute;
+        bottom: 30vh;
+        left: 25vw;
+        color: white;
+    }
+}
+
+.subpage-banner-text {
+    position: absolute;
+    bottom: 65vh;
+    left: 10vw;
+    color: white;
+}
+
+/* banner-text end */
