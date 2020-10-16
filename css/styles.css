@@ -18,15 +18,21 @@ body{
     object-fit: cover;
     margin:0;
 }
+.motelbanner{
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    margin:0;
+}
 .navbar{
     height: 10vh;
-    width: 80vw;
+    width: 70vw;
     margin: auto;
   
 }
 .sticky-top{
     position: sticky;
-    bottom: 80vh;
+    bottom: 85vh;
     z-index: 1
 }
 .navbar-brand{
@@ -39,6 +45,39 @@ body{
 .nav-item{
     padding: 15px;
 }
+/* navbar animation*/
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 200ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: red;
+  }
+  
+  .nav-link-fade-up::before {
+    width: 90%;
+    bottom: 5px;
+    opacity: 0;
+  }
+  
+  .nav-link-fade-up:hover::before {
+    bottom: 8px;
+    opacity: 1;
+  }
+
+
+/* navbar animation end */
 .options{
     padding-right: 60px;
 }
@@ -64,7 +103,6 @@ body{
 .title-banner {
     position: relative;
     margin:0;
-
 }
 
 .about-banner {
@@ -126,4 +164,12 @@ body{
 .homebutton{
     text-align: center;
     margin:5vh auto 5vh auto;
+    color: white;
 }
+.hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid black;
+}
+
