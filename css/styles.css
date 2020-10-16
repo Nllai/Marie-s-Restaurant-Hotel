@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular);
+}
 body{
     font-family: Roboto-bold;
     margin:0;
@@ -10,16 +14,18 @@ body{
 }
 .banner{
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     object-fit: cover;
+    margin:0;
 }
 .navbar{
-    height: 15vh;
-    weight: 10vw;
+    height: 10vh;
+    width: 80vw;
+    margin: auto;
+  
 }
 .sticky-top{
     position: sticky;
-    top: 5vh;
     bottom: 80vh;
     z-index: 1
 }
@@ -27,7 +33,7 @@ body{
     height: 10vh;
 }
 .navbar-brand img{
-    width:15vw;
+    height:8vh;
     padding-left: 30px;
 }
 .nav-item{
@@ -57,8 +63,8 @@ body{
 
 .title-banner {
     position: relative;
-    height: 80vh;
-    margin-top:0;
+    margin:0;
+
 }
 
 .about-banner {
@@ -117,4 +123,7 @@ body{
     height: 64vh;
     background-color: rgba(229, 221, 205, 0.4);
 }
-   
+.homebutton{
+    text-align: center;
+    margin:5vh auto 5vh auto;
+}
