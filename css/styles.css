@@ -113,11 +113,6 @@ body{
     height: 45vh;
 }
 
-.contact-section {
-    height: 64vh;
-    background-color: #333333;
-}
-
 /* section heights */
 
 /* banner-text */
@@ -173,5 +168,9 @@ body{
     border-top: 1px solid black;
 }
 
+.restaurant-section
+{
+    background-color: rgba(229, 221, 205, 0.4);
+}
 /* Slideshow */
 
