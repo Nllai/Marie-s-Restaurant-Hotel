@@ -156,6 +156,7 @@ body{
 }
 .homebook{
     background-color: rgba(229, 221, 205, 0.4)
+
 }
 .contact-section {
     height: 64vh;
@@ -163,8 +164,8 @@ body{
 }
 .homebutton{
     text-align: center;
-    margin:5vh auto 5vh auto;
     color: white;
+    padding:5vh auto 5vh auto;
 }
 .hr{
     margin-top: 1rem;
@@ -202,4 +203,8 @@ body{
     height: 10vh;
     object-fit: cover;
     object-position: center 70%;
+}
+
+.footer{
+
 }
