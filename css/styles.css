@@ -107,6 +107,7 @@ body{
     height: 40vh;
 }
 
+
 .section {
     height: 45vh;
 }
@@ -142,6 +143,13 @@ body{
 /* banner-text end */
 .homepic {
    margin:0;
+   position:relative;
+}
+.homepic-text{
+    position: absolute;
+    bottom: 13vh;
+    left: 10vw;
+    color: white;
 }
 .col-md-4 {
     margin:0;
