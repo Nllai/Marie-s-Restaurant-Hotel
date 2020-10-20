@@ -19,7 +19,7 @@ body{
     margin:0;
 }
 .motelbanner{
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     object-fit: cover;
     margin:0;
@@ -27,14 +27,12 @@ body{
 .navbar{
     height: 10vh;
     width: 70vw;
-    margin: auto;
-  
+    position: absolute;
+    top: 5em;
+    left: 15vw;
+    z-index: 999;
 }
-.sticky-top{
-    position: sticky;
-    bottom: 85vh;
-    z-index: 1
-}
+
 .navbar-brand{
     height: 10vh;
 }
@@ -52,11 +50,11 @@ body{
     position: relative;
     opacity: 0.75;
   }
-  
+
   .nav-link:hover {
     opacity: 1;
   }
-  
+
   .nav-link::before {
     transition: 200ms;
     height: 5px;
@@ -64,13 +62,13 @@ body{
     position: absolute;
     background-color: red;
   }
-  
+
   .nav-link-fade-up::before {
     width: 90%;
     bottom: 5px;
     opacity: 0;
   }
-  
+
   .nav-link-fade-up:hover::before {
     bottom: 8px;
     opacity: 1;
@@ -120,7 +118,7 @@ body{
 @media only screen and (max-width: 768px) {
     .title-banner-text {
         position: absolute;
-        bottom: 20vh;
+        bottom: 5vh;
         left: 5vw;
         color: white;
     }
@@ -129,8 +127,7 @@ body{
 @media only screen and (min-width: 768px) {
     .title-banner-text {
         position: absolute;
-        bottom: 30vh;
-        left: 25vw;
+        bottom: 10vh;
         color: white;
     }
 }
@@ -174,3 +171,27 @@ body{
 }
 /* Slideshow */
 
+.container-fluid {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+.modal-image {
+    height: 80vh;
+    object-fit: cover;
+    object-position: center 70%;
+}
+
+.modal-thumb {
+    height: 10vh;
+    object-fit: cover;
+    object-position: center 70%;
+}
