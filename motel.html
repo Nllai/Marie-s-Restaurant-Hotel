@@ -39,7 +39,7 @@
             </div>
         </nav>
         <!-- Intro -->
-        <div class="row footer bg-light text-dark">
+        <div class="row bg-light text-dark"  style="padding-top: 5vw; padding-bottom: 5vw;">
             <div class="row col-lg-4 col-sm-4 text-dark  align-items-center">
                 <div style="font-size: 1em; padding-left: 10vw;">
                     <h6>63 Little Bay Road, Springdale NL (709) 673-3831</h6><br>
@@ -65,7 +65,7 @@
             </div>
         <!-- End Intro -->
         <!-- Image Grid for Thumbnails -->
-        <div class="container-fluid" style="padding:1 1 1 1; max-width: 50%;">
+        <div class="container-fluid d-flex justify-content-between" style="padding:1 1 1 1; max-width: 40vw;">
             <div class="row homepic">
                 <div class="col-md-4" style="padding:1 1 1 1;">
                      <img src="./images/motel-one.jpg" class="img-fluid" alt="moose">
@@ -81,20 +81,20 @@
         </div>
 
         <div class="container-fluid" style="padding:1 1 1 1;">
-            <div class="row homepic">
-                <div class="col-md-2" style="padding:1 1 1 1;">
+            <div class="row homepic col-lg-12 mx-auto justify-content-between">
+                <div class="col-lg-2" style="padding:1 1 1 1;">
                      <img src="./images/motel-five.jpg" class="img-fluid" alt="moose">
                 </div>
-                <div class="col-md-2" style="padding:1 1 1 1;">
+                <div class="col-lg-2" style="padding:1 1 1 1;">
                     <img src="./images/motel-six.jpg" class="img-fluid" alt="whale">
                 </div>
-                <div class="col-md-2" style="padding:1 1 1 1;">
+                <div class="col-lg-2" style="padding:1 1 1 1;">
                     <img src="./images/motel-seven.jpg" class="img-fluid" alt="iceberg">
                 </div>
-                <div class="col-md-2" style="padding:1 1 1 1;">
+                <div class="col-lg-2" style="padding:1 1 1 1;">
                     <img src="./images/motel-eight.jpg" class="img-fluid" alt="whale">
                 </div>
-                <div class="col-md-2" style="padding:1 1 1 1;">
+                <div class="col-lg-2" style="padding:1 1 1 1;">
                     <img src="./images/motel-nine.jpg" class="img-fluid" alt="iceberg">
                 </div>
             </div>
@@ -102,131 +102,572 @@
 
         <!-- End Image Grid for Thumbnails -->
         <!-- Rooms -->
-        <div class="container-fluid contact-section bg-light text-dark" >
+        <div class="container-fluid bg-light text-dark" >
             <div class="row">
                 <div class="col-lg-6 text-dark mx-auto">
                     <div class="content-heading text-center"><h3>Rooms</h3></div>
                 </div>
             </div>
-        <div class="col-lg-12 content-heading"><h6>1) RENOVATED STANDARD BED ROOM</h6></div>
-        <div id="pg-1" class="container-fluid">
-            <div id='infinite-list' class="row section bg-overlay-maries">
+
+
+            <!-- Modal1 -->
+            <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <a class="col-lg-5" role="button" data-toggle="modal" href="#p1">
-                            <img style="width: 100%;" src="./images/rooms/standardroom-one.jpeg"/>
-                        </a>
-                        <div class="col-lg-5 text-dark align-self-start">
-                            <p>Starts from</p>
-                            <p>$89 with tax</p>
-                            <p>per night</p><br>
+                        <div class="col-lg-4 col-md-4 mx-auto">
+                            <h6 class="text-uppercase">1) Renovated single bed room</h6>
+                            <div id="myCarousel1-1" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-slide-number="0">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="0">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="2">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/washrooms.jpg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <!-- Carousel Navigation -->
+                            <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row mx-0">
+                                            <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel1-1" data-slide-to="0">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel1-1" data-slide-to="1">
+                                                <img src="./images/rooms/standardroom-two.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel1-1" data-slide-to="2">
+                                                <img src="./images/rooms/washrooms.jpg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div class="col-2 px-1 py-2"></div>
+                                            <div class="col-2 px-1 py-2"></div>
+                                            <div class="col-2 px-1 py-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 mx-auto text-dark align-self-start">
+                            <div><p class="font-light">From</p></div>
+                            <p class="font-italic">C$99</p>
+                            <p class="font-light">per night</p><br>
                             <p>Properties</p>
-                            <p>Accommodates: 2 Beds: 1 Double</p><br>
+                            <p class="font-light">Accommodates: 2 &nbsp;&nbsp;&nbsp; Beds: 1 Double</p><br>
                             <p>Amenities</p>
-                        </div> 
+                                <div class="row col-lg-9 d-flex align-items-baseline justify-content-between ml-0 px-0">
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                        </svg>
+                                        <p class="motel-text">Wifi</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+                                        </svg>
+                                        <p class="motel-text">TV</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                        </svg>
+                                        <p class="motel-text">Telephone</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                                        <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+                                        </svg>
+                                        <p class="motel-text">Shower/Bath</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-briefcase" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
+                                        <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+                                        </svg>
+                                        <p class="motel-text">Workspace</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-break" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M0 10.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                        <path d="M12 0H4a2 2 0 0 0-2 2v7h1V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v7h1V2a2 2 0 0 0-2-2zm2 12h-1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2H2v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2z"/>
+                                        </svg>
+                                        <p class="motel-text">Towel</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                                        </svg>
+                                        <p class="motel-text">Microwave</p>
+                                    </div>
+                                    <div class="micons">
+                                        <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-archive" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                        </svg>
+                                        <p class="motel-text">Mini Fridge</p>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel1-2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <img src="./images/rooms/standardroom-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <img src="./images/rooms/washrooms.jpg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-        <div class="col-lg-12 content-heading"><h6>2) RENOVATED DOUBLE BED ROOM</h6></div>
-        <div id="pg-2" class="container-fluid">
-            <div id='infinite-list' class="row section bg-overlay-maries">
+
+            <!-- Modal2 -->
+            
+            <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <a class="col-lg-5" role="button" data-toggle="modal" href="#p2">
-                            <img style="width: 100%;" src="./images/rooms/standardroom-one.jpeg"/>
-                        </a>
-                        <div class="col-lg-5 text-dark align-self-start">
-                            <p>Starts from</p>
-                            <p>$99 with tax</p>
-                            <p>per night</p><br>
-                            <p>Properties</p>
-                            <p>Accommodates: 2 Beds: 2 Double</p><br>
-                            <p>Amenities</p>
-                        </div> 
+                        <div class="col-lg-4 col-md-4 ml-auto">
+                            <h6 class="text-uppercase">2) Renovated double bed room</h6>
+                            <div id="myCarousel1-1" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-slide-number="0">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="4">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="5">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="6">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <!-- Carousel Navigation -->
+                            <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row mx-0">
+                                            <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel12" data-slide-to="0">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="1">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="2">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="3">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="4">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="5">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 mx-auto text-light align-self-start">
+                            <div><h3 class="content-heading">Construction Service</h3></div>
+                            <p class="content">From customized single detached homes new construction to residential tenant improvement, full-home remodeling, and commercial renovation, Credton Construction places great emphasis on our hands-on style project management, quality control, vetted workers, and specialized contractors to deliver the highest level of quality to our clients.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-12 content-heading"><h6>3) RENOVATED EFFICIENCY UNIT</h6></div>
-        <div id="pg-2" class="container-fluid">
-            <div id='infinite-list' class="row section bg-overlay-maries">
+            <!-- Modal2 -->
+            <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel1-2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <img src="./images/rooms/standardroom-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="4">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="5">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="6">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal3 -->
+            
+            <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <a class="col-lg-5" role="button" data-toggle="modal" href="#p3">
-                            <img style="width: 100%;" src="./images/rooms/efficiencyunit-one.jpeg"/>
-                        </a>
-                        <div class="col-lg-5 text-dark align-self-start">
-                            <p>Starts from</p>
-                            <p>$109 with tax</p>
-                            <p>per night</p><br>
-                            <p>Properties</p>
-                            <p>Accommodates: 2 Beds: 2 Double</p><br>
-                            <p>Amenities</p>
-                        </div> 
+                        <div class="col-lg-4 col-md-4 ml-auto">
+                            <h6>3) RENOVATED EFFICIENCY UNIT</h6>
+                            <div id="myCarousel1-1" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-slide-number="0">
+                                        <a role="button" href="#myCarousel1-3" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/efficiencyunit-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <a role="button" href="#myCarousel1-3" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/efficiencyunit-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <a role="button" href="#myCarousel1-3" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/efficiencyunit-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <a role="button" href="#myCarousel1-3" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/efficiencyunit-three.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="4">
+                                        <a role="button" href="#myCarousel1-3" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/washrooms.jpg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <!-- Carousel Navigation -->
+                            <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row mx-0">
+                                            <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel1-3" data-slide-to="0">
+                                                <img src="./images/rooms/efficiencyunit-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel1-3" data-slide-to="1">
+                                                <img src="./images/rooms/efficiencyunit-two.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel1-3" data-slide-to="2">
+                                                <img src="./images/rooms/efficiencyunit-three.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel1-3" data-slide-to="3">
+                                                <img src="./images/rooms/washrooms.jpg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 mx-auto text-light align-self-start">
+                            <div><h3 class="content-heading">Construction Service</h3></div>
+                            <p class="content">From customized single detached homes new construction to residential tenant improvement, full-home remodeling, and commercial renovation, Credton Construction places great emphasis on our hands-on style project management, quality control, vetted workers, and specialized contractors to deliver the highest level of quality to our clients.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-12 content-heading"><h6>4) RENOVATED SINGLE ROOM WITH SMALL KITCHENETTE</h6></div>
-        <div id="pg-2" class="container-fluid">
-            <div id='infinite-list' class="row section bg-overlay-maries">
+            <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel1-2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/rooms/efficiencyunit-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <img src="./images/rooms/efficiencyunit-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <img src="./images/rooms/efficiencyunit-three.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <img src="./images/rooms/washrooms.jpg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal4 -->
+            <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <a class="col-lg-5" role="button" data-toggle="modal" href="#p4">
-                            <img style="width: 100%;" src="./images/rooms/smallkitchenelle-one.jpeg"/>
-                        </a>
-                        <div class="col-lg-5 text-dark align-self-start">
-                            <p>Starts from</p>
-                            <p>$95 with tax</p>
-                            <p>per night</p><br>
-                            <p>Properties</p>
-                            <p>Accommodates: 2 Beds: 1 Double</p><br>
-                            <p>Amenities</p>
-                        </div> 
+                        <div class="col-lg-4 col-md-4 ml-auto">
+                            <h6>4) SINGLE ROOM WITH SMALL KITCHENETTE</h6>
+                            <div id="myCarousel1-1" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-slide-number="0">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="4">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="5">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="6">
+                                        <a role="button" href="#myCarousel1-2" data-slide-to="1">
+                                            <img data-toggle="modal" data-target="#p1" src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                        </a>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <!-- Carousel Navigation -->
+                            <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row mx-0">
+                                            <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel12" data-slide-to="0">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="1">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="2">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="3">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="4">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                            <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel12" data-slide-to="5">
+                                                <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 mx-auto text-light align-self-start">
+                            <div><h3 class="content-heading">Construction Service</h3></div>
+                            <p class="content">From customized single detached homes new construction to residential tenant improvement, full-home remodeling, and commercial renovation, Credton Construction places great emphasis on our hands-on style project management, quality control, vetted workers, and specialized contractors to deliver the highest level of quality to our clients.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- End Rooms -->
-        <!-- House Rules -->
-        <div class="container-fluid contact-section text-dark" >
-            <div class="row">
-                <div class="col-lg-12 text-dark">
-                    <div class="content-heading text-center"><h3>House Rules</h3></div>
-                </div>
-            </div>
-            <div class="row text-dark">
-                <div class="row col-lg-5 col-sm-5 align-items-center">
-                    <p>Upon booking your room and providing us with your
-                        credit card number and expiry date in lieu of guarantee,
-                        your reservation will be confirmed. Any arrival
-                        after or departure before the required dates will be
-                        considered as cancellation.</p>
-                    <p>In general, there are no penalties for cancellations or
-                        modifications made 48 hours prior on your scheduled
-                        arrival date.</p>
-                </div>
-            </div>
 
-            <div class="row text-dark">
-                <div class="row col-lg-5 col-sm-5 align-items-center">
-
-                        <p>If you plan to modify/cancel your reservation, please
-                            notify us via our contact form, by calling us at 1
-                            709-673-3894 or by sending us an e-mail at
-                            sales.maries@gmail.com</p>
-                        <p>If you cancel or modify your reservation after the required
-                            cancellation or modification deadline, you will
-                            not be refunded.</p>
+            <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div id="myCarousel1-2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="1">
+                                        <img src="./images/rooms/standardroom-two.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="2">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="3">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="4">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="5">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                    <div class="carousel-item" data-slide-number="6">
+                                        <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" style="height: 35vh;" alt="..." data-type="image" data-toggle="lightbox">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel1-2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel1-2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
-        <!-- End House Rules-->
+
+
+
+
+
+
+
+
+
+
+
         <!-- Footer -->
         <div class="row footer bg-light text-dark">
             <div class="row col-lg-3 col-sm-3 text-dark  align-items-center">
@@ -277,82 +718,10 @@
             <hr><p class="text-dark mx-auto my-0">Copyright 2020 Marie’s Motel</p>
         </div>
         <!-- End Footer -->
-        <!-- Modal -->
-        <div class="modal fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active data-slide-number=“0">
-                                    <img src="./images/rooms/standardroom-one.jpeg" class="modal-image d-block w-100" alt="..." data-type="image" data-toggle="lightbox">
-                                </div>
-                                <div class="carousel-item active data-slide-number=“0">
-                                    <img src="./images/rooms/standardroom-two.jpeg" class="modal-image d-block w-100" alt="..." data-type="image" data-toggle="lightbox">
-                                </div>
-                                <div class="carousel-item active data-slide-number=“0">
-                                    <img src="./images/rooms/washrooms.jpg" class="modal-image d-block w-100" alt="..." data-type="image" data-toggle="lightbox">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel Navigation -->
-        <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row mx-0">
-                        <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                            <img src="./images/rooms/standardroom-one.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
-                        </div>
-                        <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                            <img src="./images/rooms/standardroom-two.jpeg" class="modal-thumb w-100 img-fluid" alt="...">
-                        </div>
-                        <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
-                            <img src="./images/rooms/washrooms.jpg" class="modal-thumb w-100 img-fluid" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row mx-0">
-                        <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
-                            <img src="./images/rooms/washrooms.jpg" class="modal-thumb w-100 img-fluid" alt="...">
-                        </div>
-                        <div class="col-2 px-1 py-2"></div>
-                        <div class="col-2 px-1 py-2"></div>
-                        <div class="col-2 px-1 py-2"></div>
-                        <div class="col-2 px-1 py-2"></div>
-                        <div class="col-2 px-1 py-2"></div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-            </div>
-        </div>
 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     </body>
 </html>

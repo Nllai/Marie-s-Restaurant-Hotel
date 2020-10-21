@@ -1,9 +1,10 @@
 @font-face {
     font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto-Regular);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 body{
-    font-family: Roboto-bold;
+    font-family: "Roboto-bold";
+    src: url(../fonts/Roboto-Bold.ttf);
     margin:0;
     padding:0;
     border:0;
@@ -11,6 +12,15 @@ body{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+}
+.font-light{
+    font-family:"Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+.font-italic{
+    font-family:"Roboto-Italic";
+    src: url(../fonts/Roboto-Italic.ttf);
+    font-size: 2em;
 }
 .banner{
     width: 100vw;
@@ -165,7 +175,6 @@ body{
 .homebutton{
     text-align: center;
     color: white;
-    padding:5vh auto 5vh auto;
 }
 .hr{
     margin-top: 1rem;
@@ -205,6 +214,10 @@ body{
     object-position: center 70%;
 }
 
+.motel-icons,.motel-text{
+    display: inline-block;
+    color: #b38b4c;
+}
 .footer{
 
 }
