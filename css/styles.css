@@ -13,6 +13,10 @@ body{
     vertical-align: baseline;
     background: transparent;
 }
+.font-regular{
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 .font-light{
     font-family:"Roboto-Light";
     src: url(../fonts/Roboto-Light.ttf);
@@ -21,6 +25,10 @@ body{
     font-family:"Roboto-Italic";
     src: url(../fonts/Roboto-Italic.ttf);
     font-size: 2em;
+}
+.font-playball{
+    font-family:"Playball-regular";
+    src: url(../fonts/Playball-Regular.ttf);
 }
 .banner{
     width: 100vw;
@@ -48,7 +56,7 @@ body{
 }
 .navbar-brand img{
     height:8vh;
-    padding-left: 30px;
+    
 }
 .nav-item{
     padding: 15px;
@@ -219,5 +227,11 @@ body{
     color: #b38b4c;
 }
 .footer{
-
+    padding: 5vh 5vw 5vh 5vw;
+}
+.payment{
+    max-height: 1vh;
+}
+.copyright{
+    padding: 2vh 5vw 2vh 5vw;
 }
