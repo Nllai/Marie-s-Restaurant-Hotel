@@ -5,17 +5,10 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/title.css">
+        <link rel="stylesheet" href="./css/nav.css">
     </head>
     <body>
-        <div class="container-fliud">
-            <div class="row title-banner">
-                <img class="banner" src="./images/homehead.jpg" alt="">
-                <div class="title-banner-text">
-                    <div class="title col-lg-8 col-md-8 col-sm-8 text-left mx-auto">WELCOME TO MARIE’S MOTEL & SHANGHAI RESTAURANT</div>
-                    <div class="subtitle col-lg-8 col-md-8 col-sm-8 text-left mx-auto">Located next to one of the world's largest glacier deposits!</div>
-                </div>
-            </div>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between sticky-top mx-auto">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo-medium.jpg" alt="logo">
@@ -38,18 +31,29 @@
                 </ul>
             </div>
         </nav>
+
+
+
+        <div class="row home-banner">
+            <div class="home-banner-text mx-auto">
+                <div class="col-lg-8 col-md-8 col-sm-8 text-left mx-auto">WELCOME TO MARIE’S MOTEL & SHANGHAI RESTAURANT</div>
+                <div class="subtitle col-lg-8 col-md-8 col-sm-8 text-left mx-auto">Located next to one of the world's largest glacier deposits!</div>
+            </div>
+        </div>
+
+
         <div class="container-fliud bg-light">
             <div class="row section">
                 <div class="d-flex align-items-center">
-                        <div class="col-lg-8 text-dark text-center mx-auto">
-                            <h3>About Us</h3>
-                            <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                            in voluptate velit esse cillum.</p>
+                    <div class="col-lg-8 text-dark text-center mx-auto">
+                        <h3>About Us</h3>
+                        <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum.</p>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="container-fluid" style="padding:0 0 0 0;">
@@ -82,26 +86,28 @@
                         <p>Please call us directly to book your room.</p>
                     </div>
                 </div>
-                <div class="row text-center col-lg-10 mx-auto">
-                    <div class="row card col-lg-2 col-md-4 col-sm-2 p-2 ml-auto mr-2">
-                        <img src="./images/rooms/standardroom-one.jpeg" class="img-fluid" alt="standard">
-                        <h6 class="card-title text-left"> Renovated Standard Bed Room</h6>
-                        <p class="card-subtitle text-left font-light" style="font-size: 1vw;">Starts from $89.00 plus tax</p>
-                            <div class="row d-flex align-items-baseline justify-content-left ml-0 px-0">
-                                <div class="micons">
+                <div class="row text-center col-lg-9 mx-auto">
+                    <div class="row col-lg-3 col-md-4 col-sm-2">
+                        <div class="card">
+                            <div style="padding: 15px;">
+                                <img src="./images/rooms/standardroom-one.jpeg" class="img-fluid" alt="standard" style="padding">
+                            </div>
+                            <h6 class="card-title text-left" style="font-size: 1vw; padding-left: 15px; padding-top: 15px;"> Renovated Standard Bed Room</h6>
+                            <p class="card-subtitle text-left font-light" style="font-size: 1vw; padding-left: 15px; padding-bottom: 10px;">Starts from $89.00 plus tax</p>
+                            <div class="row d-flex text-left ml-0 px-0">
+                                <div class="micons col-lg-5">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
                                     </svg>
                                     <p class="motel-text">Wifi</p>
                                 </div>
-                                &nbsp;&nbsp;
-                                <div class="micons">
+                                <div class="micons col-lg-5">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
                                     </svg>
                                     <p class="motel-text">TV</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-12">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
@@ -110,24 +116,29 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row card col-lg-2 col-md-4 col-sm-2 p-2 mx-2"><img src="./images/rooms/standardroom-one.jpeg" class="img-fluid" alt="standard">
-                        <h6 class="card-title text-left"> Renovated Double Bed Room</h6>
-                        <p class="card-subtitle text-left font-light" style="font-size: 1vw;">Starts from $99.00 plus tax</p>
-                            <div class="row d-flex align-items-baseline justify-content-left ml-0 px-0">
-                                <div class="micons">
+                    </div>
+                    <div class="row col-lg-3 col-md-4 col-sm-2">
+                        <div class="card">
+                            <div style="padding: 15px;">
+                                <img src="./images/rooms/standardroom-one.jpeg" class="img-fluid" alt="standard">
+                            </div>
+                            <h6 class="card-title text-left" style="font-size: 1vw; padding-left: 15px; padding-top: 15px;"> Renovated Double Bed Room</h6>
+                            <p class="card-subtitle text-left font-light" style="font-size: 1vw; padding-left: 15px; padding-bottom: 10px;">Starts from $99.00 plus tax</p>
+                            <div class="row d-flex text-left ml-0 px-0">
+                                <div class="micons col-lg-5">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
                                     </svg>
                                     <p class="motel-text">Wifi</p>
                                 </div>
                                 &nbsp;&nbsp;
-                                <div class="micons">
+                                <div class="micons col-lg-5">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
                                     </svg>
                                     <p class="motel-text">TV</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-12">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
@@ -135,70 +146,80 @@
                                     <p class="motel-text">Shower/Bath</p>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                    <div class="row card col-lg-2 col-md-4 col-sm-2 p-2 mx-2"><img src="./images/rooms/efficiencyunit-one.jpeg" class="img-fluid" alt="standard">
-                        <h6 class="card-title text-left"> Efficiency Room</h6>
-                        <p class="card-subtitle text-left font-light" style="font-size: 1vw;">Starts from $109.00 plus tax</p>
-                            <div class="row d-flex align-items-baseline justify-content-left ml-0 px-0">
-                                <div class="micons">
+
+                    <div class="row col-lg-3 col-md-4 col-sm-2">
+                        <div class="card">
+                            <div style="padding: 15px;">
+                                <img src="./images/rooms/efficiencyunit-one.jpeg" class="img-fluid" alt="standard">
+                            </div>
+                            <h6 class="card-title text-left" style="font-size: 1vw; padding-left: 15px; padding-top: 15px;"> Efficiency Room</h6>
+                            <p class="card-subtitle text-left font-light" style="font-size: 1vw; padding-left: 15px; padding-bottom: 10px;">Starts from $109.00 plus tax</p>
+                            <div class="row d-flex text-left ml-0 px-0">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
                                     </svg>
                                     <p class="motel-text">Wifi</p>
                                 </div>
-                                &nbsp;&nbsp;
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
                                     </svg>
                                     <p class="motel-text">TV</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
                                     </svg>
                                     <p class="motel-text">Shower/Bath</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
                                     </svg>
                                     <p class="motel-text">Kitchen</p>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                    <div class="row card col-lg-2 col-md-4 col-sm-2 p-2 ml-2 mr-auto"><img src="./images/rooms/smallkitchenelle-one.jpeg" class="img-fluid" alt="standard">
-                        <h6 class="card-title text-left"> Renovated Single Room with Kitchen</h6>
-                        <p class="card-subtitle text-left font-light" style="font-size: 1vw;">Starts from $95.00 plus tax</p>
-                            <div class="row d-flex align-items-baseline justify-content-left ml-0 px-0">
-                                <div class="micons">
+                    <div class="row col-lg-3 col-md-4 col-sm-2">
+                        <div class="card">
+                            <div style="padding: 15px;">
+                                <img src="./images/rooms/smallkitchenelle-one.jpeg" class="img-fluid" alt="standard">
+                            </div>
+                            <h6 class="card-title text-left" style="font-size: 1vw; padding-left: 15px; padding-top: 15px;"> Renovated Single Room with Kitchen</h6>
+                            <p class="card-subtitle text-left font-light" style="font-size: 1vw; padding-left: 15px; padding-bottom: 10px;">Starts from $95.00 plus tax</p>
+                            <div class="row d-flex text-left ml-0 px-0">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                        <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
                                     </svg>
                                     <p class="motel-text">Wifi</p>
                                 </div>
-                                &nbsp;&nbsp;
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
                                     </svg>
                                     <p class="motel-text">TV</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
                                     </svg>
                                     <p class="motel-text">Shower/Bath</p>
                                 </div>
-                                <div class="micons">
+                                <div class="micons col-lg-6">
                                     <svg class="motel-icons" width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
                                     </svg>
                                     <p class="motel-text">Kitchen</p>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,26 +242,31 @@
                             </p>
                             <div class="row col-lg-9 d-flex align-items-baseline justify-content-between ml-0 px-0">
                                 <div class="micons">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16"> 
-                                        <img src="./images/icons/spa-24px.svg">
+                                    <svg class="motel-icons" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                                        <path d="M0 0h24v24H0V0zm13.97 21.49c-.63.23-1.29.4-1.97.51.68-.12 1.33-.29 1.97-.51zM12 22c-.68-.12-1.33-.29-1.97-.51.64.22 1.29.39 1.97.51z" fill="none"/>
+                                        <path fill="currentColor" d="M8.55 12c-1.07-.71-2.25-1.27-3.53-1.61 1.28.34 2.46.9 3.53 1.61zm10.43-1.61c-1.29.34-2.49.91-3.57 1.64 1.08-.73 2.28-1.3 3.57-1.64z"/>
+                                        <path fill="currentColor" d="M15.49 9.63c-.18-2.79-1.31-5.51-3.43-7.63-2.14 2.14-3.32 4.86-3.55 7.63 1.28.68 2.46 1.56 3.49 2.63 1.03-1.06 2.21-1.94 3.49-2.63zm-6.5 2.65c-.14-.1-.3-.19-.45-.29.15.11.31.19.45.29zm6.42-.25c-.13.09-.27.16-.4.26.13-.1.27-.17.4-.26zM12 15.45C9.85 12.17 6.18 10 2 10c0 5.32 3.36 9.82 8.03 11.49.63.23 1.29.4 1.97.51.68-.12 1.33-.29 1.97-.51C18.64 19.82 22 15.32 22 10c-4.18 0-7.85 2.17-10 5.45z"/>
                                     </svg>
                                     <p class="motel-text">Chinese Food / Chinese Buffet / Trditional Newfoundland</p>
                                 </div>
                                 <div class="micons">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16"> 
-                                        <img src="./images/icons/cake-24px.svg">
+                                    <svg class="motel-icons" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                                        <path d="M0 0h24v24H0z" fill="none"/>
+                                        <path fill="currentColor" d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"/>
                                     </svg>
                                     <p class="motel-text">Parties</p>
                                 </div>
                                 <div class="micons">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16"> 
-                                        <img src="./images/icons/local_bar-24px.svg">
+                                    <svg class="motel-icons" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                                        <path d="M0 0h24v24H0z" fill="none"/>
+                                        <path fill="currentColor" d="M21 5V3H3v2l8 9v5H6v2h12v-2h-5v-5l8-9zM7.43 7L5.66 5h12.69l-1.78 2H7.43z"/>
                                     </svg>
                                     <p class="motel-text">Snake Bar</p>
                                 </div>
                                 <div class="micons">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16"> 
-                                        <img src="./images/icons/apartment-24px.svg">
+                                    <svg class="motel-icons" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24">
+                                        <g><rect fill="none" height="24" width="24"/></g>
+                                        <g><path fill="currentColor" d="M17,11V3H7v4H3v14h8v-4h2v4h8V11H17z M7,19H5v-2h2V19z M7,15H5v-2h2V15z M7,11H5V9h2V11z M11,15H9v-2h2V15z M11,11H9V9h2 V11z M11,7H9V5h2V7z M15,15h-2v-2h2V15z M15,11h-2V9h2V11z M15,7h-2V5h2V7z M19,19h-2v-2h2V19z M19,15h-2v-2h2V15z"/></g>
                                     </svg>
                                     <p class="motel-text">Conference & Meeting</p>
                                 </div>
@@ -252,40 +278,52 @@
                     </div>
             </div>
         </div>
-    <div class="container-fluid">
-        <div class="row bg-light" style="height:80vh;">
-            <div class="d-flex align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-6 text-dark">
-                        <div class="content-heading"><h3>Getting Here</h3>
-                            <p>Newfoundland is the most easterly province in
-                            Canada. Travel by ferry to Port aux Basques or Argentia.
-                            Air travel to one of four airports: Stephenville,
-                            Dear Lake, Gander, or St. John's. Deer Lake being the
-                            closest airport (approx 130km or 78 mi)
-                            </p>
-                            <p>We are located in the Green Bay area. Travel the
-                            TransCanada Highway to Highway 390 taking you to
-                            the scenic area of Green Bay. Travel 12km (7mi) to
-                            the Town of Springdale.
-                            </p>
-                            <p>As you enter Springdale, we are 3km from the "Springdale Welcomes You" sign at 63 Little Bay Rd.
-                            </p>
-                            <div class="homebutton">
-                                <button type="button" class="btn btn-danger">View Menu</button>
+        <div class="container-fluid">
+            <div class="row" style="height:80vh;">
+                <div class="col-lg-10 d-flex mx-auto">
+                    <div class="col-lg-12 d-flex align-items-end">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-dark">
+                            <h3>Getting Here</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-flex align-items-center mx-auto">
+                    <div class="col-lg-12 d-flex">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-dark" style="padding-right: 10em;">
+                            <div class="content-heading">
+                                <p>Newfoundland is the most easterly province in
+                                Canada. Travel by ferry to Port aux Basques or Argentia.
+                                Air travel to one of four airports: Stephenville,
+                                Dear Lake, Gander, or St. John's. Deer Lake being the
+                                closest airport (approx 130km or 78 mi)
+                                </p>
+                                <p>We are located in the Green Bay area. Travel the
+                                TransCanada Highway to Highway 390 taking you to
+                                the scenic area of Green Bay. Travel 12km (7mi) to
+                                the Town of Springdale.
+                                </p>
+                                <p>As you enter Springdale, we are 3km from the "Springdale Welcomes You" sign at 63 Little Bay Rd.
+                                </p>
+                                <div class="homebutton">
+                                    <button type="button" class="btn btn-danger">View Menu</button>
+                                </div>
                             </div>
                         </div>
+                        <div class="footer-map mx-auto">
+                            <iframe class="col-lg-10 col-md-6 col-sm-6 maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d647.8083004181165!2d-56.0761345!3d49.49899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602863949506!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="600" height="100%"></iframe>
+                        </div>
+                    </div>
+
                 </div>
-                <iframe class="col-lg-6 col-md-6 col-sm-6 maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d647.8083004181165!2d-56.0761345!3d49.49899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602863949506!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
-    </div>
         <!--Contact form-->
         <div class="container-fluid contact-section" style="padding-top: 5vw; padding-bottom: 5vw;" >
             <div class="row">
                 <div class="col-lg-6 text-dark  mx-auto justify-content-center">
                     <div class="content-heading text-center">
                         <h3>Contact Us</h3>
-                        <p class="subtitle">For general enquiries, modifying your existing reservation and further information, please contact us.</p>
+                        <p>For general enquiries, modifying your existing reservation and further information, please contact us.</p>
                     </div>
                 </div>
             </div>
@@ -315,8 +353,8 @@
         <!--End Contact form-->
         <!-- Footer -->
         <div class="footer row contaier-fluid bg-light text-dark">
-            <div class="row col-lg-3 col-sm-3 text-dark  align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
                     <h6 class="font-regular"; style="color: #b12e00;" >MARIE’S MOTEL & SHANGHAI RESTAURANT</h6>
                     <p class="font-light">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed
@@ -328,13 +366,13 @@
                 </div>
             </div>
 
-            <div class="row col-lg-3 col-sm-3 align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
+            <div class="row col-lg-3 col-sm-3 align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
                     <h6 class="font-regular">SITE MAP</h6>
                     <p class="font-light">Motel</p>
                     <p class="font-light">Restaruant</p>
                     <h6 class="font-regular">WE ACCEPT</h6>
-                        <div class="row col-lg-9 d-flex flex-row align-items-baseline justify-content-between ml-0 px-0">
+                        <div class="row">
                             <a class="navbar-brand" href="#">
                                 <img src="./images/icons/visa.png" alt="visa">
                             </a>
@@ -347,29 +385,32 @@
                         </div>
                 </div>
             </div>
-            <div class="row col-lg-3 col-sm-3 text-dark  align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
                     <h6 class="font-regular">CONTACT</h6>
                     <p class="font-light">Motel: 709-673-3894</p>
                     <p class="font-light">Restaurant: 709-673-3831</p>
                     <p class="font-light">Email: sales.maries@gmail.com</p>
                 </div>
             </div>
-            <div class="row col-lg-3 col-sm-3 text-dark align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
                     <h6 class="font-regular">ADDRESS</h6>
                     <p class="font-light">63 Little Bay Road</p>
                     <p class="font-light">Springdale, Newfoundland</p>
                     <p class="font-light">Canada</p>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.8083001706173!2d-56.076134508740296!3d49.49899001869655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602815131595!5m2!1sen!2sca" 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.8083001706173!2d-56.076134508740296!3d49.49899001869655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602815131595!5m2!1sen!2sca"
                         frameborder="0" style="border:0;"width="150vw;" height="100vh" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>
         <!-- End Footer -->
-        <div class="row copyright bg-light text-dark mx-auto col-lg-10 font-light">
-            <p>Copyright 2020 Marie’s Motel</p>
+        <hr style="padding: 0px; margin: 0px;">
+        <div class="row copyright bg-light text-dark font-light">
+            <div class="col-lg-11 mx-auto">
+                <p>Copyright 2020 Marie’s Motel</p>
+            </div>
         </div>
-            <script src="./js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>

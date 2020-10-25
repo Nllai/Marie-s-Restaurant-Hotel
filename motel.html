@@ -5,17 +5,11 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/title.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/motel.css">
     </head>
     <body>
-        <div class="container-fliud">
-            <div class="row title-banner">
-                <img class="motelbanner" src="./images/motelhead.jpg" alt="">
-                <div class="title-banner-text">
-                    <div class="title col-lg-8 text-center mx-auto">MOTEL</div>
-
-                </div>
-            </div>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between sticky-top">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo-medium.jpg" alt="logo">
@@ -38,69 +32,73 @@
                 </ul>
             </div>
         </nav>
+        <div class="row motel-banner">
+            <div class="motel-banner-text text-center mx-auto">Motel</div>
+        </div>
         <!-- Intro -->
         <div class="row bg-light text-dark"  style="padding-top: 5vw; padding-bottom: 5vw;">
-            <div class="row col-lg-4 col-sm-4 text-dark  align-items-center">
-                <div style="padding-left: 10vw;">
-                    <h6 style="color: #b12e00;">63 Little Bay Road, Springdale NL (709) 673-3831</h6><br>
-                    <h6>CHECK IN AND OUT</h6>
-                    <p class="font-light">Check-In 03:00pm</p>
-                    <p class="font-light">Check-Out 11:00am</p>
+            <div class="contaier-fluid row">
+                <div class="row col-lg-4 col-sm-4 text-dark  align-items-center">
+                    <div style="padding-left: 10vw;">
+                        <h6 style="color: #b12e00;">63 Little Bay Road, Springdale NL (709) 673-3831</h6><br>
+                        <h6>CHECK IN AND OUT</h6>
+                        <p class="font-light">Check-In 03:00pm</p>
+                        <p class="font-light">Check-Out 11:00am</p>
+                    </div>
+                </div>
+
+                <div class="row col-lg-4 col-sm-4 align-items-center">
+                    <div style="font-size: 2vh; padding-left: 10vh;">
+                        <h6>PLEASE CONTACT THE MOTEL
+                            DIRECTLY TO BOOK YOUR ROOM.</h6>
+                    </div>
+                </div>
+                <div class="row col-lg-4 col-sm-4 text-dark align-items-center font-light">
+                    <div style="padding-left: 10vh;">
+                        <p>Check-in time: 3pm</p>
+                        <p>No smoking allowed inside the room</p>
+                        <p>Cancellation Policy: a minimum of 48 hours notice ahead to your arrival for a free
+                            cancellation.</p>
+                        <p>Pet-friendly, - some restrictions may appl</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Intro -->
+            <!-- Image Grid for Thumbnails -->
+
+            <div class="container-fluid d-flex">
+                <div class="row homepic col-lg-12">
+                    <div class="col-lg-3 col-md-3" style="height: 40vh;">
+                        <div class="scene-1" style="height: 100%;"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 justify-content-between" style="height: 40vh;">
+                        <div class="scene-2" style="height: 45%;"></div>
+                        <div class="scene-3" style="height: 50%; margin-top: 4vh;"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" style="height: 40vh;">
+                        <div class="scene-4" style="height: 100%;"></div>
+                    </div>
                 </div>
             </div>
 
-            <div class="row col-lg-4 col-sm-4 align-items-center">
-                <div style="font-size: 2vh; padding-left: 10vh;">
-                    <h6>PLEASE CONTACT THE MOTEL
-                        DIRECTLY TO BOOK YOUR ROOM.</h6>
-                </div>
-            </div>
-            <div class="row col-lg-4 col-sm-4 text-dark align-items-center font-light">
-                <div style="padding-left: 10vh;">
-                    <p>Check-in time: 3pm</p>
-                    <p>No smoking allowed inside the room</p>
-                    <p>Cancellation Policy: a minimum of 48 hours notice ahead to your arrival for a free
-                        cancellation.</p>
-                    <p>Pet-friendly, - some restrictions may appl</p>
-                </div>
-            </div>
-        <!-- End Intro -->
-        <!-- Image Grid for Thumbnails -->
-        <div class="container-fluid d-flex justify-content-between" style="padding:1 1 1 1; max-width: 40vw;">
-            <div class="row homepic">
-                <div class="col-md-4" style="padding:1 1 1 1;">
-                     <img src="./images/motel-one.jpg" class="img-fluid" alt="moose">
-                </div>
-                <div class="col-md-4" style="padding:1 1 1 1;">
-                    <img src="./images/motel-two.jpg" class="img-fluid" alt="whale">
-                    <img src="./images/motel-three.jpg " class="img-fluid" alt="iceberg">
-                </div>
-                <div class="col-md-4" style="padding:1 1 1 1;">
-                    <img src="./images/motel-four.jpg" class="img-fluid" alt="iceberg">
+            <div class="container-fluid d-flex" style="padding-top: 2em; padding-bottom: 2em;">
+                <div class="row homepic col-lg-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6" style="height: 12vw;">
+                        <div class="scene-5" style="height: 100%;"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" style="height: 12vw;">
+                        <div class="scene-6" style="height: 100%;"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" style="height: 12vw;">
+                        <div class="scene-7" style="height: 100%;"></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6" style="height: 12vw;">
+                        <div class="scene-8" style="height: 100%;"></div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
-
-        <div class="container-fluid" style="padding:1 1 1 1;">
-            <div class="row homepic col-lg-12 mx-auto justify-content-between">
-                <div class="col-lg-2" style="padding:1 1 1 1;">
-                     <img src="./images/motel-five.jpg" class="img-fluid" alt="moose">
-                </div>
-                <div class="col-lg-2" style="padding:1 1 1 1;">
-                    <img src="./images/motel-six.jpg" class="img-fluid" alt="whale">
-                </div>
-                <div class="col-lg-2" style="padding:1 1 1 1;">
-                    <img src="./images/motel-seven.jpg" class="img-fluid" alt="iceberg">
-                </div>
-                <div class="col-lg-2" style="padding:1 1 1 1;">
-                    <img src="./images/motel-eight.jpg" class="img-fluid" alt="whale">
-                </div>
-                <div class="col-lg-2" style="padding:1 1 1 1;">
-                    <img src="./images/motel-nine.jpg" class="img-fluid" alt="iceberg">
-                </div>
-            </div>
-        </div>
-
         <!-- End Image Grid for Thumbnails -->
         <!-- Rooms -->
         <div class="container-fluid bg-light text-dark" >
@@ -115,7 +113,7 @@
             <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <div class="col-lg-4 col-md-4 mx-auto">
+                        <div class="col-lg-4 col-md-4 mx-auto align-self-start">
                             <h6 class="text-uppercase">1) Renovated standard bed room</h6>
                             <div id="myCarousel1-1" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
@@ -265,10 +263,10 @@
 
 
             <!-- Modal2 -->
-            <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
+            <div class="row" >
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <div class="col-lg-4 col-md-4 mx-auto">
+                        <div class="col-lg-4 col-md-4 mx-auto align-self-start">
                             <h6 class="text-uppercase">2) Renovated double bed room</h6>
                             <div id="myCarousel2-1" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
@@ -421,7 +419,7 @@
             <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <div class="col-lg-4 col-md-4 ml-auto">
+                        <div class="col-lg-4 col-md-4 ml-auto align-self-start">
                             <h6>3) RENOVATED EFFICIENCY UNIT</h6>
                             <div id="myCarousel3-1" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
@@ -589,7 +587,7 @@
             <div class="row" style="padding-top: 5vw; padding-bottom: 5vw;">
                 <div class="container-fluid d-flex align-items-center">
                     <div class="row d-flex align-items-center">
-                        <div class="col-lg-4 col-md-4 ml-auto">
+                        <div class="col-lg-4 col-md-4 ml-auto  align-self-start">
                             <h6>4) SINGLE ROOM WITH SMALL KITCHENETTE</h6>
                             <div id="myCarousel4-1" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
@@ -746,18 +744,12 @@
 
 
 
-
-
-
-
-
-
         <!-- Footer -->
-        <div class="row footer bg-light text-dark">
-            <div class="row col-lg-3 col-sm-3 text-dark  align-items-center">
-                <div style="font-size: 1em; padding-left: 10vw;">
-                    <h6>MARIE’S MOTEL & SHANGHAI RESTAURANT</h6>
-                    <p>Lorem ipsum dolor sit amet,
+        <div class="footer row contaier-fluid bg-light text-dark">
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
+                    <h6 class="font-regular"; style="color: #b12e00;" >MARIE’S MOTEL & SHANGHAI RESTAURANT</h6>
+                    <p class="font-light">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed
                         do eiusmod. Lorem ipsum dolor
                         sit amet, consectetur.</p>
@@ -767,41 +759,51 @@
                 </div>
             </div>
 
-            <div class="row col-lg-3 col-sm-3 align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
-                    <h6>SITE MAP</h6>
-                    <p>Motel</p>
-                    <p>Restaruant</p>
-                    <h6>WE ACCEPT</h6>
-
-                </div>
-            </div>
-            <div class="row col-lg-3 col-sm-3 text-dark  align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
-                    <h6>CONTACT</h6>
-                    <p>Motel: 709-673-3894</p>
-                    <p>Restaurant: 709-673-3831</p>
-                    <p>Email: sales.maries@gmail.com</p>
-                </div>
-            </div>
-            <div class="row col-lg-3 col-sm-3 text-dark align-items-center">
-                <div style="font-size: 1em; padding-left: 10vh;">
-                    <h6>ADDRESS</h6>
-                    <p>63 Little Bay Road</p>
-                    <p>Springdale, Newfoundland</p>
-                    <p>Canada</p>
-                    <div class="row" style="height:5vh;">
-                        <div class="col-sm-5 maps" >
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.8083001706173!2d-56.076134508740296!3d49.49899001869655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602815131595!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="row col-lg-3 col-sm-3 align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
+                    <h6 class="font-regular">SITE MAP</h6>
+                    <p class="font-light">Motel</p>
+                    <p class="font-light">Restaruant</p>
+                    <h6 class="font-regular">WE ACCEPT</h6>
+                        <div class="row">
+                            <a class="navbar-brand" href="#">
+                                <img src="./images/icons/visa.png" alt="visa">
+                            </a>
+                            <a class="navbar-brand" href="#">
+                                <img src="./images/icons/mastercard.png" alt="mastercard">
+                            </a>
+                            <a class="navbar-brand" href="#">
+                                <img src="./images/icons/Interac.png" alt="Interac">
+                            </a>
                         </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row copyright text-dark bg-light mx-auto">
-            <hr><p class="text-dark mx-auto my-0">Copyright 2020 Marie’s Motel</p>
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
+                    <h6 class="font-regular">CONTACT</h6>
+                    <p class="font-light">Motel: 709-673-3894</p>
+                    <p class="font-light">Restaurant: 709-673-3831</p>
+                    <p class="font-light">Email: sales.maries@gmail.com</p>
+                </div>
+            </div>
+            <div class="row col-lg-3 col-sm-3 text-dark align-items-top ">
+                <div style="font-size: 1em; padding-left: 10vh; padding-top: 5vh;">
+                    <h6 class="font-regular">ADDRESS</h6>
+                    <p class="font-light">63 Little Bay Road</p>
+                    <p class="font-light">Springdale, Newfoundland</p>
+                    <p class="font-light">Canada</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.8083001706173!2d-56.076134508740296!3d49.49899001869655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602815131595!5m2!1sen!2sca"
+                        frameborder="0" style="border:0;"width="150vw;" height="100vh" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
         </div>
         <!-- End Footer -->
+        <hr style="padding: 0px; margin: 0px;">
+        <div class="row copyright bg-light text-dark font-light">
+            <div class="col-lg-11 mx-auto">
+                <p>Copyright 2020 Marie’s Motel</p>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

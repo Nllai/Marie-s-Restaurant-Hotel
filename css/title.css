@@ -1,0 +1,55 @@
+.title-banner {
+    background: url('../images/restauranthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 40vh;
+}
+
+.home-banner {
+    background: url('../images/homehead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 80vh;
+}
+
+.motel-banner {
+    background: url('../images/motelhead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 40vh;
+}
+
+.home-banner-text {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-top: 35vh;
+}
+
+.subtitle {
+    color: white;
+    font-size: 0.5em;
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .title-banner-text {
+        color: white;
+        font-size: 5em;
+        font-weight: 700;
+        padding-top: 23vh;
+    }
+    .motel-banner-text {
+        color: white;
+        font-size: 5em;
+        font-weight: 700;
+        padding-top: 23vh;
+    }
+}
