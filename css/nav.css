@@ -2,29 +2,38 @@ div.header {
     overflow: auto;
     white-space: nowrap;
     font-size: larger;
-
+    overflow-x: hidden;
 }
 
 /* Style the navbar */
 #navbar {
     background-color: #b12e00;
     padding-left: 50px;
-  }
+    vertical-align: middle;
+
+}
 
 /* Navbar links */
 #navbar a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
     text-decoration: none;
-    vertical-align: middle
+    vertical-align: middle;
+    font-size: 2vh;
+    border-bottom: 3px solid transparent;
+    height: 8vh;
 }
 
-/* Page content */
-.content {
-    padding: 16px;
+#navbar a:hover {
+    border-bottom: 3px solid #f2f2f2;
 }
+
+#navbar a.active {
+    border-bottom: 3px solid #f2f2f2;
+}
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -37,16 +46,16 @@ div.header {
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-padding-top: 60px;
+margin-top: 16vh;
 }
 
-
+:target { scroll-margin-top: 16vh; }
 
 /* Style the navbar */
 #navbar2 {
-    overflow: hidden;
     background-color: #403c35;
     padding-left: 50px;
+    vertical-align: middle;
   }
 
 /* Navbar links */
@@ -54,7 +63,19 @@ padding-top: 60px;
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 0.5em;
     text-decoration: none;
     vertical-align: middle;
+    font-size: 2vh;
+    border-bottom: 3px solid transparent;
+    margin: auto;
+    height: 8vh;
+}
+
+#navbar2 a:hover {
+    border-bottom: 3px solid #f2f2f2;
+}
+
+#navbar2 a.active {
+    border-bottom: 3px solid #f2f2f2;
 }

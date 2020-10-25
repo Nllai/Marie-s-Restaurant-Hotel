@@ -3,6 +3,11 @@ html {
 }
 
 @font-face {
+    font-family: "Playball";
+    src: url(../fonts/Playball-Regular.ttf);
+}
+
+@font-face {
     font-family: "Roboto-Regular";
     src: url(../fonts/Roboto-Regular.ttf);
 }
@@ -12,12 +17,17 @@ html {
     src: url(../fonts/Roboto-Bold.ttf);
 }
 
+.restaurant-titles {
+    font-family: Playball;
+    font-size: 3.5vw;
+}
+
 body{
-    font-family: Roboto-bold;
+    font-family: Roboto-Regular;
     margin:0;
     border:0;
     outline:0;
-    font-size: 100%;
+    font-size: 120%;
     background: transparent;
 }
 .font-regular{
@@ -161,7 +171,6 @@ body{
 
 }
 .contact-section {
-    height: 64vh;
     background-color: rgba(229, 221, 205, 0.4);
 }
 .homebutton {
