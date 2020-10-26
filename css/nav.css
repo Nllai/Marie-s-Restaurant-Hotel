@@ -2,7 +2,6 @@ div.header {
     overflow: auto;
     white-space: nowrap;
     font-size: larger;
-    overflow-x: hidden;
 }
 
 /* Style the navbar */
@@ -18,7 +17,7 @@ div.header {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5em 1em 0.5em 1em;
     text-decoration: none;
     vertical-align: middle;
     font-size: 2vh;

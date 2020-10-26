@@ -78,3 +78,56 @@
     background-position: center center;
     color: #fff;
 }
+
+
+
+@media only screen and (max-width: 576px) {
+    .room-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 3vh;
+    }
+    .room-details {
+        font-size: 4.5vw;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .room-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 3vh
+    }
+    .room-details {
+        font-size: 3.5vw;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .room-titles {
+        font-family: Playball;
+        font-size: 5vw;
+        padding-top: 1vh
+    }
+    .room-details {
+        font-size: 2.2vw;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .room-titles {
+        font-family: Playball;
+        font-size: 3.5vw;
+        padding-top: 1vh
+    }
+    .room-details {
+        font-size: 1.3vw;
+    }
+
+}

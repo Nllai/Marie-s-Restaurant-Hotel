@@ -1,5 +1,11 @@
 html {
     scroll-behavior: smooth;
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Playball";
+    src: url(../fonts/Playball-Regular.ttf);
 }
 
 @font-face {
@@ -22,6 +28,19 @@ html {
     font-size: 3.5vw;
 }
 
+
+ .room-details-bold {
+    font-size: 1.3vw;
+    font-weight: bolder;
+    padding-top: 2vw;
+}
+
+.room-details-title {
+    font-size: 1.3vw;
+    font-weight: bolder;
+}
+
+
 body{
     font-family: Roboto-Regular;
     margin:0;
@@ -42,6 +61,8 @@ body{
     font-family:"Roboto-Italic";
     src: url(../fonts/Roboto-Italic.ttf);
     font-size: 2em;
+    font-weight: bolder;
+    line-height: 0.5em;
 }
 .font-playball{
     font-family:"Playball-regular";
@@ -152,22 +173,12 @@ body{
 }
 
 /* banner-text end */
-.homepic {
-   margin:0;
-   position:relative;
-}
 
-.homepic-text{
-    position: absolute;
-    bottom: 13vh;
-    left: 10vw;
-    color: white;
-}
 .col-md-4 {
     margin:0;
 }
 .homebook{
-    background-color: rgba(229, 221, 205, 0.4)
+    background-color: rgba(229, 221, 205, 0.4);
 
 }
 .contact-section {
@@ -175,7 +186,10 @@ body{
 }
 .homebutton {
     text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     color: white;
+    font-size: 1.5vw;
 }
 .hr {
     margin-top: 1rem;
@@ -215,21 +229,201 @@ body{
     object-position: center 70%;
 }
 
-.motel-icons, .motel-text{
-    display: inline-block;
-    color: #b38b4c;
-    filter:  #b38b4c;
-}
+
 .footer{
-    padding: 5vh 5vw 5vh 5vw;
+    padding: 5vh 0 5vh 0;
 }
 
 .copyright {
     padding: 2vh 5vw 2vh 5vw;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
 
 .footer-map {
     width: 70vw;
     height: 50vh;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .homepic {
+        margin:0;
+        position:relative;
+     }
+
+     .homepic-text{
+         position: absolute;
+         bottom: 5vh;
+         left: 6vw;
+         color: white;
+         font-size: 6vw;
+
+     }
+    .footer-font {
+        font-size: 5vw;
+        font-family: Roboto-Regular;
+        line-height: 1em;
+    }
+    .footer-title {
+        font-size: 6vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+        margin-top: 5vh;
+    }
+    .payment-icons {
+        width: 10vw;
+        height: 10vw;
+    }
+    .info-font {
+        font-size: 4.5vw;
+        font-family: Roboto-Regular;
+        line-height: 1em;
+    }
+    .info-title {
+        font-size: 5vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+        margin-top: 5vh;
+        line-height: 1em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .homepic {
+        margin:0;
+        position:relative;
+     }
+
+     .homepic-text{
+         position: absolute;
+         bottom: 5vh;
+         left: 6vw;
+         color: white;
+         font-size: 2.5vw;
+     }
+    .footer-font {
+        font-size: 3.5vw;
+        font-family: Roboto-Regular;
+    }
+    .footer-title {
+        font-size: 4vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+    }
+    .payment-icons {
+        width: 10vw;
+        height: 10vw;
+        margin: 0;
+    }
+    .info-font {
+        font-size: 3.5vw;
+        font-family: Roboto-Regular;
+    }
+    .info-title {
+        font-size: 4vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .motel-icons, .motel-text{
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 2.2vw;
+        width: 2.2vw;
+        height: 2.2vw;
+    }
+    .homepic {
+        margin:0;
+        position:relative;
+     }
+
+     .homepic-text{
+         position: absolute;
+         bottom: 5vh;
+         left: 10vw;
+         color: white;
+         font-size: 1.5vw;
+     }
+     .footer-font {
+        font-size: 1.5vw;
+        font-family: Roboto-Regular;
+    }
+    .footer-title {
+        font-size: 1.7vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+    }
+    .payment-icons {
+        width: 5vw;
+        height: 5vw;
+        margin: 0;
+    }
+    .info-font {
+        font-size: 2vw;
+        font-family: Roboto-Regular;
+        line-height: 1.5em;
+    }
+    .info-title {
+        font-size: 2.3vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .motel-icons, .motel-text{
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    .homepic {
+        margin:0;
+        position:relative;
+     }
+
+     .homepic-text{
+         position: absolute;
+         bottom: 13vh;
+         left: 10vw;
+         color: white;
+         font-size: 1.5vw;
+     }
+     .footer-font {
+        font-size: 1vw;
+        font-family: Roboto-Regular;
+    }
+    .footer-title {
+        font-size: 1.1vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+    }
+
+    .payment-icons {
+        width: 3.5vw;
+        height: 3.5vw;
+        margin: 0;
+    }
+    .info-font {
+        font-size: 1vw;
+        font-family: Roboto-Regular;
+    }
+    .info-title {
+        font-size: 1.1vw;
+        font-family: Roboto-Regular;
+        font-weight: 900;
+        line-height: 2em;
+    }
 }

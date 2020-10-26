@@ -1,0 +1,143 @@
+
+
+@media only screen and (max-width: 576px) {
+    .home-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 3vh;
+    }
+    .home-details {
+        font-size: 4.5vw;
+    }
+
+    .card-title {
+        font-size: 4.8vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 4.5vw;
+        padding-bottom: 1vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 4vw;
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .card {
+        padding-bottom: 3vh;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .home-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 10vh
+    }
+    .home-details {
+        font-size: 3.5vw;
+    }
+
+    .card-title {
+        font-size: 3.3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 3.2vw;
+        padding-bottom: 1vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 3vw;
+        padding-bottom: 1vw;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .home-titles {
+        font-family: Playball;
+        font-size: 5vw;
+        padding-top: 10vh
+    }
+    .home-details {
+        font-size: 2.2vw;
+    }
+
+    .card-title {
+        font-size: 2.5vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 2.2vw;
+        padding-bottom: 1vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 2.2vw;
+        padding-bottom: 1vw;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .home-titles {
+        font-family: Playball;
+        font-size: 3.5vw;
+        padding-top: 10vh
+    }
+    .home-details {
+        font-size: 1.3vw;
+    }
+
+    .card-title {
+        font-size: 1.3vw;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 0.9vw;
+        padding-bottom: 1vw;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+}
