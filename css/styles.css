@@ -256,6 +256,18 @@ ul {
 
 
 @media only screen and (max-width: 576px) {
+    .motel-icons {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    .motel-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
+    }
     .homepic {
         margin:0;
         position:relative;
@@ -299,6 +311,18 @@ ul {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .motel-icons {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
+        width: 1.2vw;
+        height: 1.2vw;
+    }
+    .motel-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
+    }
     .homepic {
         margin:0;
         position:relative;
@@ -337,12 +361,17 @@ ul {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .motel-icons, .motel-text{
+    .motel-icons{
         color: #b38b4c;
         filter:  #b38b4c;
         font-size: 2.2vw;
         width: 2.2vw;
         height: 2.2vw;
+    }
+    .motel-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 2.2vw;
     }
     .homepic {
         margin:0;
@@ -383,12 +412,17 @@ ul {
 }
 
 @media only screen and (min-width: 992px) {
-    .motel-icons, .motel-text{
+    .motel-icons {
         color: #b38b4c;
         filter:  #b38b4c;
         font-size: 1.2vw;
         width: 1.2vw;
         height: 1.2vw;
+    }
+    .motel-text {
+        color: #b38b4c;
+        filter:  #b38b4c;
+        font-size: 1.2vw;
     }
     .homepic {
         margin:0;
