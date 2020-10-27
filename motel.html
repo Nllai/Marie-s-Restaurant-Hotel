@@ -10,23 +10,23 @@
         <link rel="stylesheet" href="./css/motel.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light justify-content-between sticky-top mx-auto">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo-medium.jpg" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#collapsibleNavbar">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="#collapsibleNavbar">
+            <div class="collapse navbar-collapse justify-content-end bg-light" id="collapsibleNavbar">
                 <ul class="nav navbar-nav align-items-end">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="index.html"><h5>Home</h5></a>
+                        <a href="index.html"><p class="nav-title nav-link nav-link-fade-up">Home</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="motel.html"><h5>Motel</h5></a>
+                        <a href="motel.html"><p class="nav-title nav-link nav-link-fade-up">Motel</p></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="restaurant.html"><h5>Restaurant</h5></a>
+                        <a href="restaurant.html"><p class="nav-title nav-link nav-link-fade-up">Restaurant</p></a>
                         </a>
                     </li>
                 </ul>
@@ -791,7 +791,7 @@
         </div>
 
         <!-- Footer -->
-        <div class="footer row contaier-fluid bg-light text-dark">
+        <div class="footer row contaier-fluid text-dark">
             <div class="row col-lg-9 col-md-12 mx-auto mt-3">
                 <div class="col-lg-3 col-md-3 col-sm-6" style="padding: 0 2.5em 0 2.5em; font-size: 1vw;">
                     <h6 class="footer-title" style="color: #b12e00;" >MARIE’S MOTEL & SHANGHAI RESTAURANT</h6>
@@ -799,14 +799,17 @@
                         consectetur adipiscing elit, sed
                         do eiusmod. Lorem ipsum dolor
                         sit amet, consectetur.</p>
-                    <a class="footer-brand" href="#">
+                    <a class="footer-brand" href="index.html">
                         <img src="./images/logo-medium.jpg" alt="logo">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6" style="padding: 0 2.5em 0 2.5em; font-size: 1vw;">
                     <h6 class="footer-title">SITE MAP</h6>
-                    <p class="footer-font">Motel</p>
-                    <p class="footer-font">Restaruant</p>
+                    <a href="motel.html">
+                        <p class="footer-font">Motel</p>
+                    </a><a href="restaurant.html">
+                        <p class="footer-font">Restaruant</p>
+                    </a>
                     <h6 class="footer-title">WE ACCEPT</h6>
                     <div class="row col-lg-12" style="padding: 0;">
                         <a class="payment-icons" href="#">
