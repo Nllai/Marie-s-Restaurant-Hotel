@@ -67,7 +67,7 @@ body{
 .navbar{
     width: 70vw;
     position: absolute;
-    top: 5em;
+    top: 5vh;
     left: 15vw;
     z-index: 999;
 }
