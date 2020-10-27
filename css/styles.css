@@ -105,7 +105,7 @@ body{
 
   .nav-link::before {
     transition: 200ms;
-    height: 5px;
+    height: 8px;
     content: "";
     position: absolute;
     background-color: red;
