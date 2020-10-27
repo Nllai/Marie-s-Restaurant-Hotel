@@ -86,7 +86,7 @@
         font-size: 2.5vw;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .card-subtitle {
@@ -121,7 +121,7 @@
         font-weight: 900;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 20px;
+        padding-top: 8px;
     }
 
     .card-subtitle {
