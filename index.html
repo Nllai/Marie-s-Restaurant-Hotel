@@ -10,31 +10,32 @@
         <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between sticky-top mx-auto">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light justify-content-between sticky-top mx-auto">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo-medium.jpg" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#collapsibleNavbar">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="#collapsibleNavbar">
+            <div class="collapse navbar-collapse justify-content-end bg-light" id="collapsibleNavbar">
                 <ul class="nav navbar-nav align-items-end">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="index.html"><h5>Home</h5></a>
+                        <a class="nav-link nav-link-fade-up" href="index.html"><h5 class="nav-title">Home</h5></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="motel.html"><h5>Motel</h5></a>
+                        <a class="nav-link nav-link-fade-up" href="motel.html"><h5 class="nav-title">Motel</h5></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-fade-up text-dark"href="restaurant.html"><h5>Restaurant</h5></a>
+                        <a class="nav-link nav-link-fade-up" href="restaurant.html"><h5 class="nav-title">Restaurant</h5></a>
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
+
         <div class="row home-banner">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 mx-auto">
-                <div class="col-lg-8 col-md-8 col-sm-8 text-left mx-auto home-banner-text">WELCOME TO MARIE’S MOTEL & SHANGHAI RESTAURANT</div>
+                <div class="col-lg-8 col-md-8 col-sm-8 text-left mx-auto home-banner-text">WELCOME TO MARIE’S MOTEL <br> & SHANGHAI RESTAURANT</div>
                 <div class="subtitle col-lg-8 col-md-8 col-sm-8 text-left mx-auto">Located next to one of the world's largest glacier deposits!</div>
             </div>
         </div>
@@ -85,21 +86,21 @@
                             <h6 class="card-title text-left"> Renovated Standard Bed Room</h6>
                             <p class="card-subtitle text-left">Starts from $89.00 plus tax</p>
                             <div class="row d-flex text-left ml-0 px-0">
-                                <div class="micons card-text col-lg-5">
+                                <div class="micons card-text">
+                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                    </svg> Wifi
+                                </div>
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
-                                    </svg>TV
+                                    </svg> TV
                                 </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                                    </svg>Shower / Bath
-                                </div>
-                                <div class="micons card-text col-lg-7">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
-                                    </svg>Wifi
+                                    </svg> Shower / Bath
                                 </div>
                             </div>
                         </div>
@@ -112,21 +113,21 @@
                             <h6 class="card-title text-left"> Renovated Double Bed Room</h6>
                             <p class="card-subtitle text-left">Starts from $99.00 plus tax</p>
                             <div class="row d-flex text-left ml-0 px-0">
-                                <div class="micons card-text col-lg-5">
+                                <div class="micons card-text">
+                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                    </svg> Wifi
+                                </div>
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
-                                    </svg>TV
+                                    </svg> TV
                                 </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                                    </svg>Shower / Bath
-                                </div>
-                                <div class="micons card-text col-lg-7">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
-                                    </svg>Wifi
+                                    </svg> Shower / Bath
                                 </div>
                             </div>
                         </div>
@@ -137,31 +138,30 @@
                             <div style="padding: 15px;">
                                 <img src="./images/rooms/efficiencyunit-one.jpeg" class="img-fluid" alt="standard">
                             </div>
-                            <h6 class="card-title text-left"> Efficiency <br> Room </h6>
+                            <h6 class="card-title text-left"> Renovated Efficiency Unit </h6>
                             <p class="card-subtitle text-left">Starts from $109.00 plus tax</p>
                             <div class="row d-flex text-left ml-0 px-0">
-                                <div class="micons card-text col-lg-5">
+                                <div class="micons card-text">
+                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                    </svg> Wifi
+                                </div>
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
-                                    </svg>TV
+                                    </svg> TV
                                 </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                                    </svg>Shower / Bath
+                                    </svg> Shower / Bath
                                 </div>
-                                <div class="micons card-text col-lg-5">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
-                                    </svg>Wifi
-                                </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
                                     </svg>Kitchen
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -170,26 +170,26 @@
                             <div style="padding: 15px;">
                                 <img src="./images/rooms/smallkitchenelle-one.jpeg" class="img-fluid" alt="standard">
                             </div>
-                            <h6 class="card-title text-left"> Renovated Single Room withKitchen</h6>
+                            <h6 class="card-title text-left"> Renovated Single Room with Kitchen</h6>
                             <p class="card-subtitle text-left">Starts from $95.00 plus tax</p>
                             <div class="row d-flex text-left ml-0 px-0">
-                                <div class="micons card-text col-lg-5">
+                                <div class="micons card-text">
+                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
+                                    </svg> Wifi
+                                </div>
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tv" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
-                                    </svg>TV
+                                    </svg> TV
                                 </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-droplet" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
                                     <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                                    </svg>Shower / Bath
+                                    </svg> Shower / Bath
                                 </div>
-                                <div class="micons card-text col-lg-5">
-                                    <svg class="motel-icons" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wifi-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.229 8.271c.216-.216.194-.578-.063-.745A9.456 9.456 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.577 1.336c.205.132.48.108.652-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.408.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.611-.091l.015-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .708 0l.707-.707z"/>
-                                    </svg>Wifi
-                                </div>
-                                <div class="micons card-text col-lg-7">
+                                <div class="micons card-text">
                                     <svg class="motel-icons" width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
                                     </svg>Kitchen
@@ -294,11 +294,14 @@
                 <div class="col-lg-6 text-dark  mx-auto justify-content-center">
                     <div class="content-heading text-center">
                         <p class="home-titles">Contact Us</p>
-                        <p class="home-details">For general enquiries, modifying your existing reservation and further information, please contact us.</p>
+                        <p class="home-details">For general enquiries, modifying your existing reservation and further information, please contact us.
+                            (Please provide: arrival and checkout date, number in party and room kind)
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="container d-flex mx-auto justify-content-center">
+
+            <form action="action_page.php" class="container d-flex mx-auto justify-content-center">
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="inputName">YOUR NAME</label>
@@ -313,11 +316,12 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="inputMessage">MESSAGE</label>
-                        <p class="home-details">(Please provide: arrival and checkout date, number in party and room kind)</p>
+                        <p style="font-size: 1em;"></p>
                         <textarea class="form-control mt-2"></textarea>
                     </div>
                 </div>
-            </div>
+            </form>
+
             <div class="homebutton">
                 <button type="button" class="btn btn-danger">Send Message</button>
             </div>
@@ -333,7 +337,7 @@
                         consectetur adipiscing elit, sed
                         do eiusmod. Lorem ipsum dolor
                         sit amet, consectetur.</p>
-                    <a class="navbar-brand" href="#">
+                    <a class="footer-brand" href="#">
                         <img src="./images/logo-medium.jpg" alt="logo">
                     </a>
                 </div>
@@ -371,12 +375,16 @@
             </div>
         </div>
         <!-- End Footer -->
-        <hr style="padding: 0px; margin: 0px;">
-        <div class="row copyright bg-light text-dark font-light">
-            <div class="col-lg-12 ml-0">
-                <p>Copyright 2020 Marie’s Motel</p>
+        <div class="row contaier-fluid bg-light text-dark">
+            <div class="row col-lg-9 copyright bg-light text-dark font-light mx-auto" style="padding: 0 2.5em 0 2.5em; font-size: 1vw;">
+                <div class="col-lg-3">
+                    <p class="copyright" style="padding: 15px 0 15px 0; margin: 0px;">Copyright 2020 Marie’s Motel</p>
+                </div>
             </div>
         </div>
         <script src="./js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
