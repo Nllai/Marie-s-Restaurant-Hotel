@@ -322,6 +322,14 @@ ul {
         font-size: 7.5vw;
         padding-top: 3vh;
     }
+    .menu-title {
+        font-size: 4vw;
+        font-family: Roboto-Bold
+    }
+
+    .menu-text {
+        font-size: 4vw;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -400,6 +408,14 @@ ul {
         font-family: Playball;
         font-size: 3.5vw;
         padding-top: 3vh
+    }
+    .menu-title {
+        font-size: 3.2vw;
+        font-family: Roboto-Bold
+    }
+
+    .menu-text {
+        font-size: 3.2vw;
     }
 }
 
@@ -481,6 +497,14 @@ ul {
         font-family: Playball;
         font-size: 5vw;
         padding-top: 1vh
+    }
+    .menu-title {
+        font-size: 2vw;
+        font-family: Roboto-Bold
+    }
+
+    .menu-text {
+        font-size: 1.7vw;
     }
 }
 
