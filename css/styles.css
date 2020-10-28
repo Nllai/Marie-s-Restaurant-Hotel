@@ -3,10 +3,6 @@ html {
     width: 100%;
 }
 
-@font-face {
-    font-family: "Playball";
-    src: url(../fonts/Playball-Regular.ttf);
-}
 
 @font-face {
     font-family: "Playball";
@@ -19,7 +15,7 @@ html {
 }
 
 @font-face {
-    font-family: "Roboto-bold";
+    font-family: "Roboto-Bold";
     src: url(../fonts/Roboto-Bold.ttf);
 }
 
@@ -37,6 +33,10 @@ body{
 .font-regular{
     font-family:"Roboto-Regular";
     src: url(../fonts/Roboto-Regular.ttf);
+}
+.font-regular{
+    font-family:"Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 .font-light{
     font-family:"Roboto-Light";
@@ -292,7 +292,7 @@ ul {
     }
     .info-title {
         font-size: 5vw;
-        font-family: Roboto-Regular;
+        font-family: Roboto-Bold;
         font-weight: 900;
         margin-top: 5vh;
         line-height: 1em;
@@ -370,7 +370,7 @@ ul {
     }
     .info-title {
         font-size: 4vw;
-        font-family: Roboto-Regular;
+        font-family: Roboto-Bold;
         font-weight: 900;
     }
     .copyright {
@@ -450,7 +450,7 @@ ul {
     }
     .info-title {
         font-size: 2.3vw;
-        font-family: Roboto-Regular;
+        font-family: Roboto-Bold;
         font-weight: 900;
     }
     .copyright {
@@ -531,7 +531,7 @@ ul {
     }
     .info-title {
         font-size: 1.1vw;
-        font-family: Roboto-Regular;
+        font-family: Roboto-Bold;
         font-weight: 900;
         line-height: 2em;
     }
@@ -564,6 +564,7 @@ ul {
 
     .menu-title {
         font-size: 1.1vw;
+        font-family: Roboto-Bold
     }
 
     .menu-text {
