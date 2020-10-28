@@ -32,7 +32,7 @@
 @media only screen and (max-width: 576px) {
     .title-banner-text {
         color: white;
-        font-size: 3vw;
+        font-size: 11vw;
         font-weight: 700;
         padding-top: 25vh;
     }
@@ -45,12 +45,12 @@
         color: white;
         font-size: 11vw;
         font-weight: 700;
-        padding-top: 30vh;
+        padding-top: 25vh;
     }
 
     .home-banner-text {
         color: white;
-        font-size: 5vw;
+        font-size: 6vw;
         font-weight: 700;
         padding-top: 35vh;
         padding-bottom: 3vh;
@@ -60,7 +60,7 @@
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .title-banner-text {
         color: white;
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 700;
         padding-top: 25vh;
     }
@@ -71,7 +71,7 @@
 
     .motel-banner-text {
         color: white;
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 700;
         padding-top: 23vh;
     }

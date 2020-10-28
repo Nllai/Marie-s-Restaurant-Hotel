@@ -85,3 +85,46 @@ margin-top: 16vh;
     font-size: 1.5vw;
     margin: 0 1.5em 0 1.5em
 }
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .nav-title {
+        color: black;
+        font-weight: 800;
+        font-size: 4.5vw;
+        margin: 0 1.5em 0 1.5em
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .nav-title {
+        color: black;
+        font-weight: 800;
+        font-size: 2.5vw;
+        margin: 0 1.5em 0 1.5em
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .nav-title {
+        color: black;
+        font-weight: 800;
+        font-size: 1.5vw;
+        margin: 0 1.5em 0 1.5em
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+
+    .nav-title {
+        color: black;
+        font-weight: 800;
+        font-size: 1.5vw;
+        margin: 0 1.5em 0 1.5em
+    }
+}
