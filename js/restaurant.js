@@ -66,4 +66,52 @@ function showActive() {
 
     activeLink.classList.add("active")
     previousElement = activeLink
+
+}
+
+const horrizontalScroll = (activeElement, activeLink) => {
+
+    if (activeElement < 15) {
+        var div = document.getElementById('navbar');
+        document.getElementById('navbar2').scrollLeft = 0
+    } else {
+        var div = document.getElementById('navbar2');
+        document.getElementById('navbar').scrollLeft = 0
     }
+    if (activeLink != null && div != null) {
+        div.scrollTo({top:0, left: activeLink.offsetLeft, behavior: 'smooth'})
+        console.log(activeLink.offsetLeft - window.innerWidth)
+    }
+}
+
+
+var scrollStop = function (callback) {
+
+	// Make sure a valid callback was provided
+	if (!callback || typeof callback !== 'function') return;
+
+	// Setup scrolling variable
+	var isScrolling;
+
+	// Listen for scroll events
+	window.addEventListener('scroll', function (event) {
+
+		// Clear our timeout throughout the scroll
+		window.clearTimeout(isScrolling);
+
+		// Set a timeout to run after scrolling ends
+		isScrolling = setTimeout(function() {
+
+			// Run the callback
+			callback();
+
+		}, 30);
+
+	}, false);
+
+};
+
+scrollStop(function () {
+    activeElement = getMinIdElement()
+    horrizontalScroll(activeElement, previousElement)
+});
