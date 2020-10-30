@@ -74,7 +74,7 @@
                 <div class="col-lg-12 text-dark">
                     <div class="content-heading text-center">
                         <p class="home-titles">Book Your Room</p>
-                        <p class="home-details">Please call us directly to book your room.</p>
+                        <p class="home-details">Please call us directly:（709）673-3894 to book your room.</p>
                     </div>
                 </div>
                 <div class="row text-center col-lg-9 col-md-10 mx-auto">
@@ -322,29 +322,47 @@
                 </div>
             </div>
 
-            <form class="gform container d-flex mx-auto justify-content-center" method="POST" data-email=ceo.appletreeacademics.com action="https://script.google.com/macros/s/AKfycbxF5Dpe5Nhnqgq6pLHSikJ6YtmW7W2pDma2-GT4Qv14RiIj3iR1/exec">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="inputName">YOUR NAME</label>
-                        <input type="text" class="form-control mt-2">
+            <form class="gform" method="POST" data-email=Bookings@Mariesmotel.com action="https://script.google.com/macros/s/AKfycbz7EuRRyJ9mX2F8mWf3vtX_K-E5s2Q17UeGTyzKebDKu8CrIU4/exec">
+                <div class=" container d-flex mx-auto justify-content-center">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="inputName">YOUR NAME</label>
+                            <input type="text" class="form-control mt-2" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail>">EMAIL</label>
+                            <input type="text" class="form-control mt-2" name="email">
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <label for="inputEmail>">EMAIL</label>
-                        <input type="text" class="form-control mt-2">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="inputMessage">MESSAGE</label>
+                            <textarea rows="5" class="form-control mt-2" style="height: 100%;" name="subject"></textarea>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="inputMessage">MESSAGE</label>
-                        <textarea rows="5" class="form-control mt-2" style="height: 100%;"></textarea>
-                    </div>
+                <div class="homebutton">
+                    <button class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Send Message</button>
                 </div>
             </form>
 
-            <div class="homebutton">
-                <button type="button" class="btn btn-danger">Send Message</button>
+            <!-- Form submitted Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">We've Received Your Message!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        Thank you for getting in touch. We will get back to you as soon as we can!
+                    </div>
+                </div>
+                </div>
             </div>
+
         </div>
         <!--End Contact form-->
 
@@ -391,7 +409,7 @@
                     <h6 class="footer-title">ADDRESS</h6>
                     <p class="footer-font">63 Little Bay Road</p>
                     <p class="footer-font">Springdale, Newfoundland and Labrador</p>
-                    <p class="footer-font">Canada</p>
+                    <p class="footer-font">Canada A0J 1T0</p>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.8083001706173!2d-56.076134508740296!3d49.49899001869655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b79d1c2c77f3b37%3A0xb34b4e0d6bf1be8!2sMarie&#39;s%20Motel%20%26%20Restaurant!5e0!3m2!1sen!2sca!4v1602815131595!5m2!1sen!2sca"
                     frameborder="0" style="border:0;"width="150vw;" height="50vh" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
@@ -407,6 +425,7 @@
             </div>
         </div>
         <script src="./js/main.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="./js/email.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
