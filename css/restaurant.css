@@ -1,0 +1,33 @@
+
+.scene-1 {
+    background: url('../images/restaurant/scene-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-2 {
+    background: url('../images/restaurant/scene-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-3 {
+    background: url('../images/restaurant/scene-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+.scene-4 {
+    background: url('../images/homer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
