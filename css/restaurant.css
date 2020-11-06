@@ -25,9 +25,77 @@
 }
 
 .scene-4 {
+    background: url('../images/restaurant/scene-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-5 {
+    background: url('../images/restaurant/scene-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-6 {
+    background: url('../images/restaurant/scene-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-7 {
+    background: url('../images/restaurant/scene-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+.scene-8 {
     background: url('../images/homer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
 }
+
+
+.scene-9 {
+    background: url('../images/restaurant/scene-8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-10 {
+    background: url('../images/restaurant/scene-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-11 {
+    background: url('../images/restaurant/scene-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+.scene-12 {
+    background: url('../images/restaurant/scene-11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
